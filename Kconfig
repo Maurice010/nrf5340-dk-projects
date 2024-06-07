@@ -1,0 +1,5 @@
+source "Kconfig.zephyr"
+
+config LEDCONTROL
+    bool "Enable led control"
+    default n
